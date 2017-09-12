@@ -357,7 +357,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/02.jpg) no-repeat;
+  background: url(../img/1920x1080/03.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -387,13 +387,49 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
+  	[Contact Banner]
+------------------------------------------------------------------*/
+.contact-banner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/1920x1080/04.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.contact-banner:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.contact-banner .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.contact-banner .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+/*------------------------------------------------------------------
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/01.jpg) no-repeat;
+  background: url(../img/1920x1080/05.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
