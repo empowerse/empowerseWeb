@@ -423,7 +423,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-  	[Promo Block]
+  	[Promo Block index]
 ------------------------------------------------------------------*/
 .promo-block {
   position: relative;
@@ -434,6 +434,7 @@ fieldset[disabled] .btn-theme {
   background-position: center center;
   padding: 250px 0 200px;
 }
+
 
 .promo-block:before {
   position: absolute;
@@ -461,6 +462,144 @@ fieldset[disabled] .btn-theme {
   font-size: 25px;
   color: #fff;
 }
+
+/*------------------------------------------------------------------
+  	[Promo Block impact]
+------------------------------------------------------------------*/
+.promo-block-impact {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/1920x1080/06.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 200px;
+}
+
+.promo-block-impact .promo-block-impact-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+/*
+.promo-block:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-block .promo-block-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .promo-block .promo-block-title {
+    font-size: 50px;
+  }
+}
+
+.promo-block .promo-block-text {
+  font-size: 25px;
+  color: #fff;
+}*/
+
+/*------------------------------------------------------------------
+  	[Promo Block sales]
+------------------------------------------------------------------*/
+.promo-block-sales {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/1920x1080/07.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 200px;
+}
+
+.promo-block-sales .promo-block-sales-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+/*
+.promo-block:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-block .promo-block-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .promo-block .promo-block-title {
+    font-size: 50px;
+  }
+}
+
+.promo-block .promo-block-text {
+  font-size: 25px;
+  color: #fff;
+}*/
+
+/*------------------------------------------------------------------
+  	[Promo Block community]
+------------------------------------------------------------------*/
+.promo-block-community {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background: url(../img/1920x1080/08.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 250px 0 200px;
+}
+
+.promo-block-community .promo-block-community-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+/*
+.promo-block:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-block .promo-block-title {
+  font-size: 70px;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .promo-block .promo-block-title {
+    font-size: 50px;
+  }
+}
+
+.promo-block .promo-block-text {
+  font-size: 25px;
+  color: #fff;
+} */
 
 /*------------------------------------------------------------------
   	[Service]
