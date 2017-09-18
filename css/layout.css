@@ -452,6 +452,11 @@ fieldset[disabled] .btn-theme {
   color: #fff;
 }
 
+.promo-block .promo-block-subtitle {
+  font-size: 50px;
+  color: #fff;
+}
+
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
     font-size: 50px;
