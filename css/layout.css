@@ -469,6 +469,41 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
+  	[Offering Block index]
+------------------------------------------------------------------*/
+.offering-block {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+
+.offering-block:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  content: " ";
+}
+
+.offering-block .offering-block-title {
+  font-size: 50px;
+  color: #000;
+}
+
+.offering-block .offering-block-subtitle {
+  font-size: 20px;
+  color: #000;
+}
+
+.offering-block .offering-block-text {
+  font-size: 25px;
+  color: #000;
+}
+
+/*------------------------------------------------------------------
   	[Promo Block impact]
 ------------------------------------------------------------------*/
 .promo-block-impact {
@@ -1418,6 +1453,25 @@ fieldset[disabled] .btn-theme {
 
 .content-lg {
   padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*------------------------------------------------------------------
+  	[Content index]
+------------------------------------------------------------------*/
+.content-index {
+  padding-bottom: 40px;
+}
+
+.content-sm-index {
+  padding-bottom: 60px;
+}
+
+.content-md-index {
+  padding-bottom: 80px;
+}
+
+.content-lg-index {
   padding-bottom: 100px;
 }
 
